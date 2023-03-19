@@ -1,0 +1,491 @@
+.header{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    height: 50px;
+}
+
+.header-logo{
+    padding: 0 25px;
+    height: 100%;
+}
+
+.header-logo-img{
+    height:100%;
+    width: auto;
+}
+
+.header-menu{
+    padding-right: 50px;
+}
+
+.header-menu-list{
+    list-style: none;
+}
+
+.header-menu-list-item{
+    display: inline-block;
+    padding-left: 20px;
+}
+
+.header-menu-list-item a{
+    text-decoration: none;
+    color:black;
+    opacity: 0.5;
+}
+
+.eyecacth{
+    position: relative;
+}
+
+.eyecacth-img{
+    margin: 0 0 0 auto;
+    display: block;
+    width: 60%;
+}
+
+.eyecacth-ttlbox{
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    font-size: 4vw;
+}
+
+.eyecatch-ttlbox-h1{
+    line-height: 1.5;
+    color:rgb(179,22,103);
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+.eyecatch-ttlbox-h1-span{
+    color: mediumturquoise;
+}
+
+.eyecacth-h2{
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    font-size: 1.7vw;
+    color:rgb(179, 22, 103);
+}
+
+.eyecatch-h2-span{
+    color:mediumturquoise;
+}
+
+.eyecacth-p{
+    position: absolute;
+    top: 60%;
+    left: 20%;
+    font-size: 1.2vw;
+    line-height: 1.5;
+    color: black;
+    opacity: 0.5;
+}
+
+.news{
+    width: 70%;
+    margin: 50px auto;
+}
+
+.news-pickup-ttl{
+    color:rgb(179, 22, 103);
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+.news-pickup-about{
+    margin-top: 10px;
+    font-size: 1.7vw;
+    font-weight: bold;
+    color: black;
+    opacity: 0.5;
+}
+
+.news-info-list{
+    list-style: none;
+    font-size: 1.4vw;
+    margin-top: 15px;
+    border-top: 2px solid gainsboro;
+    border-bottom: 2px solid gainsboro;
+}
+
+.news-info-list-item{
+    display: flex;
+    padding: 15px;
+    border-bottom: 1px solid gainsboro;
+}
+
+.news-info-list-item-date,.news-info-list-item-detail{
+    color: black;
+    opacity: 0.5;
+    margin-right: 10px;
+}
+
+.news-info-list-item-ttlbox{
+    background-color: rgb(179, 22, 103);
+    border-radius: 30px;
+    margin-right: 10px;
+}
+
+.news-info-list-item-ttlbox-ttl {
+    padding: 3px 25px;
+    color: white;
+    font-size: 1.2vw;
+}
+
+.about{
+    background-color:rgb(251,251,251);
+}
+
+.about-pickup{
+    text-align: center;
+    padding: 40px 0;
+}
+
+.about-pickup-ttl{
+    color:rgb(179, 22, 103);
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+.about-pickup-about{
+    margin-top: 10px;
+    font-size: 1.7vw;
+    font-weight: bold;
+    color: black;
+    opacity: 0.5;
+}
+
+.about-contents{
+    width:75%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-contents-box{
+    width: 50%;
+}
+
+.about-contents-box-text{
+    font-size: 1.5vw;
+    line-height: 1.8;
+    color: black;
+    opacity: 0.5;
+    font-weight: bold;
+}
+
+.about-contents-box-img{
+    width: 80%;
+    margin-left:15%;
+}
+
+.service{
+    width: 70%;
+    margin: 50px auto;
+}
+
+.service-pickup-ttl{
+    color:rgb(179, 22, 103);
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+.service-pickup-about{
+    margin-top: 10px;
+    font-size: 1.7vw;
+    font-weight: bold;
+    color: black;
+    opacity: 0.5;
+}
+
+.service-contents{
+    display: flex;
+    margin-top:30px;
+}
+
+.service-contents-box{
+    text-align: center;
+    width: 50%;
+}
+
+.service-contents-box:first-child{
+    background-color:rgb(179, 22, 103);
+}
+
+.service-contents-box-img{
+    width:35%;
+    padding: 20px 0;
+}
+
+.service-contents-box-textbox{
+    color: white;
+    font-size: 1.2vw;
+}
+
+.service-contens-box-textbox-ttl{
+    margin: 15px 0;
+    font-weight: bold;
+}
+
+.service-contens-box-textbox-detail{
+    margin:0 40px;
+    text-align: left;
+    line-height: 1.8;
+}
+
+.service-contents-box-harfbox{
+    display: flex;
+}
+
+.service-contents-box-harfbox-img{
+    width:35%;
+}
+
+.service-contents-box-harfbox-textbox{
+    display: block;
+    text-align: left;
+    color: white;
+    font-size: 1.2vw;
+    margin:40px 0;
+}
+
+.service-contens-box-harfbox-textbox-ttl{
+    font-weight: bold;
+}
+
+.service-contens-box-harfbox-textbox-detail{
+    margin-top: 30px;
+    line-height: 1.8;
+}
+
+.service-contents-box-harfbox:first-child{
+    background-color:rgba(179, 22, 103,0.5) ;
+}
+
+.service-contents-box-harfbox:last-child{
+    background-color:rgba(179, 22, 103,0.2) ;
+}
+
+.blog{
+    background-color: rgb(251, 251, 251);
+    margin-top: 50px;
+}
+
+.blog-main{
+    width: 75%;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+.blog-main-pickup-ttl {
+    color: rgb(179, 22, 103);
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+.blog-main-pickup-about {
+    margin-top: 10px;
+    font-size: 1.7vw;
+    font-weight: bold;
+    color: black;
+    opacity: 0.5;
+}
+
+.blog-main-area{
+    display: flex;
+}
+
+.blog-main-area-card{
+    width: 30%;
+    margin: 2%;
+}
+
+.blog-main-area-card-imgbox{
+    width: 100%;
+    position: relative;
+}
+
+.blog-main-area-card-imgbox-img{
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.blog-main-area-card-imgbox-ttlbox{
+    position: absolute;
+    top:0%;
+    background-color:rgb(179, 22, 103);
+    z-index: 1;
+    border-top-left-radius: 20px;
+}
+
+.blog-main-area-card-imgbox-ttlbox-text{
+    color: white;
+    padding: 15px;
+}
+
+.blog-main-area-card-textbox{
+    width: 100%;
+    color: black;
+    opacity: 0.5;
+}
+
+.blog-main-area-card-textbox-ttl{
+    font-weight: bold;
+    padding: 20px;
+}
+
+.blog-main-area-card-textbox-bottom{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+    padding: 20px;
+    font-size: 1vw;
+}
+
+.blog-pagelink{
+    margin: 50px auto;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.blog-pagelink-text{
+    padding: 20px 60px;
+    border: 3px solid rgb(179, 22, 103);
+    border-radius: 40px;
+    text-decoration: none;
+    color: rgb(179, 22, 103);
+}
+
+.company{
+    width: 70%;
+    margin: 50px auto;
+}
+
+.company-pickup-ttl {
+    color: rgb(179, 22, 103);
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+.company-pickup-about {
+    margin-top: 10px;
+    font-size: 1.7vw;
+    font-weight: bold;
+    color: black;
+    opacity: 0.5;
+}
+
+.company-table{
+    border: 1px solid gainsboro;
+    width: 100%;
+    margin-top:50px;
+}
+
+.company-table-tr,
+.company-table-td,
+.company-table-th{
+    border: 1px solid gainsboro;
+}
+
+.company-table-th{
+    background-color: rgb(251, 251, 251);
+    text-align: left;
+    padding: 20px;
+    width: 30%;
+}
+
+.company-table-td{
+    padding: 20px;
+    color: black;
+    opacity: 0.5;
+    font-weight: bold;
+}
+
+.link{
+    width: 100%;
+    display: flex;
+}
+
+.link-imgbox{
+    width: 50%;
+    position: relative;
+}
+
+.link-imgbox-img{
+    width: 100%;
+}
+
+.link-imgbox-ttl{
+    position:absolute;
+    color:white;
+    font-size: 3vw;
+    font-weight: bold;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-decoration: none;
+}
+
+.inquiry{
+    width: 50%;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.inquiry-text{
+    font-size: 2vw;
+    color: black;
+    opacity: 0.5;
+    font-weight: bold;
+}
+
+.inquiry-rod{
+    background-color: rgb(179, 22, 103);
+    height: 50px;
+    width: 3px;
+    margin: 10px auto 50px auto;
+}
+
+.inquiry-link-text{
+    margin-top: 30px;
+    text-decoration: none;
+    font-size:2vw;
+    background: linear-gradient(90deg, rgb(252,30,141), rgb(179, 22, 103));
+    padding: 30px 120px;
+    border-radius: 80px;
+    color: white;
+    box-shadow: 0px 10px 0px rgb(132,1,81);
+}
+
+.inquiry-link-text::before {
+    content: "";
+    background: url(mailicon.svg);
+    margin-right: 40px;
+    background-size: cover;
+    vertical-align: middle;
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.footer {
+    height: 50px;
+    background-color:rgb(251,251,251);
+    text-align: center;
+}
+
+.footer-c{
+    display: block;
+    padding-top:25px;
+    color:black;
+    opacity: 0.5;
+}
