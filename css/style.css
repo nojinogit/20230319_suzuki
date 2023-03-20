@@ -137,6 +137,12 @@
     padding: 3px 25px;
     color: white;
     font-size: 1.2vw;
+    white-space: nowrap;
+}
+
+.news-info-list-item-detail{
+    font-size: 1.4vw;
+    white-space: nowrap;
 }
 
 .about{
@@ -302,6 +308,8 @@
 .blog-main-area-card{
     width: 30%;
     margin: 2%;
+    background-color: white;
+    border-radius: 20px;
 }
 
 .blog-main-area-card-imgbox{
